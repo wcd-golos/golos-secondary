@@ -1,0 +1,402 @@
+.steem-feed-loader {
+	padding: 10px;
+	background-color: #f5f5f5;	
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+.sf-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+
+.sf-li {
+	overflow: hidden;
+	padding: 0 0 15px;
+	margin: 0 0 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.sf-li article {
+}	
+
+.sf-image {
+	float: left;
+	width: 130px;	
+	min-height: 77px;
+	border: 1px solid #eee !important;
+	background-color: #eee;
+	margin: 0 10px 0 0;
+	box-shadow: none !important;	
+}
+
+.sf-image img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.sf-li-content {
+	overflow: hidden;
+}
+
+.sf-li-title {
+	font-size: 18px;
+	font-weight: 600;
+	display: block;
+	margin: 0 0 5px;
+	box-shadow: none !important;
+	text-decoration: none;
+	border: 0 !important;
+}
+
+.sf-li-title:hover,
+.sf-li-title:focus {
+	text-decoration: none;	
+}
+
+.sf-li-body {
+	font-size: 15px;
+	margin: 0 0 8px;	
+}
+
+.sf-li-footer {
+	font-size: 14px;
+	color: #8a8a8a;
+}
+
+.sf-li-reward {
+}
+
+.sf-li-reward-inner {
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #cacaca;
+}
+
+.sf-li-dollar-sign {
+	padding: 0 2px 0 0;	
+}
+
+.sf-li-vcard {
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #cacaca;
+}
+
+.sf-li-vcard a {
+	font-weight: 600;
+	box-shadow: none !important;
+	text-decoration: none;	
+	border: 0 !important;
+}
+
+.sf-li-vcard a:hover,
+.sf-li-vcard a:focus {
+	text-decoration: none;	
+}
+
+.sf-li-rep {
+	display: inline-block;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    color: #8a8a8a;
+	width: 20px
+	height: 20px;	
+}
+
+.sf-li-votes {
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #cacaca;
+}
+
+.sf-li-votes i,
+.sf-li-replies i {
+	color: #cacaca;	
+}
+
+.sf-li-replies a {
+	color: #8a8a8a;	
+	box-shadow: none !important;
+	text-decoration: none;
+	border: 0 !important;
+}
+
+.sf-li-replies a:hover,
+.sf-li-replies a:focus {
+	text-decoration: none;
+	color: #8a8a8a;	
+}
+
+/* Media queries */
+/*@media all and (max-width: 480px){
+}*/
+
+
+
+
+.review-item-content p{
+	margin-bottom: 5px;
+}
+
+#reviewItems {
+	color: #3e4d5c;
+}
+/* reviews tab */
+.reviews-form {
+	padding-top: 20px;
+}
+.reviews-form label {
+	font-weight: normal;
+}
+.reviews-form input.form-control {
+	color: #aaa;
+}
+.review-item {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: solid 1px #eee;
+	padding: 0 5px 5px;
+	margin: 0 -5px 20px;
+}
+.review-item-submitted {
+	margin-bottom: 5px;
+	position: relative;
+}
+.review-item-submitted strong, 
+.review-item-submitted em {
+	display: block;
+}
+.review-item-submitted strong {
+	margin-bottom: 3px;
+	color: black;
+}
+.review-item-submitted em {
+	font-style: normal;
+	color: #bbb;
+	font-size: 12px;
+}
+.review-item-submitted .rateit {
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+
+/* content form page */
+div.content-form-page {
+	background: #fff;
+	padding: 5px 20px 30px;
+}
+.content-form-page a {
+	color: #767F88;
+}
+.content-form-page a:hover {
+	color: #E02222;
+}
+.form-without-legend {
+	padding-top: 25px;
+}
+.content-form-page legend {
+	border: none;
+	font: 18px 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin-bottom: 14px;
+}
+.content-form-page .control-label {
+	font-weight: normal;
+	padding-right: 5px;
+	margin-left: -15px;
+}
+.default-form label,
+.checkout-page label {
+	font-weight: normal;
+}
+.require {
+	color: #e94d1c;
+}
+.content-form-page input.form-control {
+	border-color: #dbdbdb;
+	color: #aaa;
+	font: 14px Arial, sans-serif;
+	border-radius: 0;
+}
+.content-form-page .form-control:focus {
+	box-shadow: none;
+	border: solid 1px #e94d1c;
+}
+.content-form-page .checkbox .col-lg-4 {
+	padding-right: 0;
+	margin-left: -15px;
+}
+.content-form-page .checker {
+	margin-left: -15px;
+}
+.content-form-page .btn {
+	margin-right: 10px;
+	padding: 7px 12px 6px;
+}
+
+
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px !important;
+    margin-left:0px !important;
+    margin-bottom: 0px !important;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/*Custom Label*/
+.badge-default,
+.label-default  {
+  background-color: #999 !important;
+}
+
+.badge-primary,
+.label-primary {
+  background-color: #428bca !important;
+}
+
+.label-success, 
+.badge-success {
+  background-color: #3cc051;
+  background-image: none !important;
+}
+
+.label-warning, 
+.badge-warning {
+  background-color: #fcb322;
+  background-image: none !important;
+}
+
+.label-danger, 
+.badge-danger {
+  background-color: #ed4e2a;
+  background-image: none !important;
+}
+
+.label-info, 
+.badge-info {
+  background-color: #57b5e3;
+  background-image: none !important;
+}
+
+.label, 
+.badge {
+  font-weight: 300;  
+  text-shadow: none !important;
+  color: #fff;
+}
+
+.label {  
+  font-size: 12px;  
+  padding: 3px 6px 3px 6px;
+}
+
+.label.label-sm {  
+  font-size: 12px;
+  padding: 1px 4px 1px 4px;
+}
+
+
+/***
+Error States
+***/
+
+.has-warning .help-inline,
+.has-warning .help-block,
+.has-warning .control-label {
+  color: #c09853;
+}
+
+.has-warning .form-control {
+  border-color: #c09853;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.has-warning .form-control:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.has-warning .input-group-addon {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #c09853;
+}
+
+.has-error .help-inline,
+.has-error .help-block,
+.has-error .control-label {
+  color: #b94a48;
+}
+
+.has-error .form-control {
+  border-color: #b94a48;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.has-error .form-control:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.has-error .input-group-addon {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #b94a48;
+}
+
+.has-success .help-inline,
+.has-success .help-block,
+.has-success .control-label {
+  color: #468847;
+}
+
+.has-success .form-control {
+  border-color: #468847;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.has-success .form-control:focus {
+  border-color: #356635;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.has-success .input-group-addon {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #468847;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.content-form-page .control-label {
+    font-weight: normal;
+    padding-right: 5px;
+    margin-left: -15px;
+}
+
