@@ -179,9 +179,9 @@ function display_golos($atts, $content = null) {
 	$productName = $product->get_title();
 		
 	if( !empty($mn_golos_slugurl) && isset($mn_golos_slugurl) ){
-		$productCode = $mn_golos_slugurl;		
+		$productCode = strtolower( $mn_golos_slugurl );		
 	} else {
-		$productCode = basename(get_permalink());
+		$productCode = strtolower( basename(get_permalink()) );
 	}
 	
 	$golosData = get_post_meta($product->id, '_product_golos_reviewdata', true);
